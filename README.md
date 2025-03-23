@@ -1,11 +1,13 @@
-## Initialize the CNNLSTM model
+# CNN-LSTM Model
 
-Sets up the layers for the CNN-LSTM architecture, including:
+## Overview
+This project implements a **CNN-LSTM** model designed for processing sequences of images. The architecture integrates **Convolutional Neural Networks (CNNs)** for spatial feature extraction and **Long Short-Term Memory (LSTM)** networks for temporal processing.
 
-- Convolutional layers for feature extraction
-- Max pooling layers for downsampling
-- LSTM layer for temporal processing
-- Dropout for regularization
-- Fully connected layers for classification
+## Model Architecture
+The model consists of the following components:
 
-The model is designed to process sequences of images, extract spatial features using CNN, and then process the temporal information using LSTM.
+- **Convolutional Layers**: Extract spatial features from input images.
+- **Max Pooling Layers**: Reduce dimensionality while preserving important information.
+- **LSTM Layer**: Process temporal dependencies in image sequences.
+- **Dropout Layer**: Prevent overfitting by randomly deactivating neurons.
+- **Fully Connected Layers**: Perform classification based on extracted features.
